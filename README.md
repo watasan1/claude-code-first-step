@@ -9,7 +9,8 @@ Claude Code：ターミナルから利用できるAIコーディングツール
 
 本資料では主に macOS 環境で動作を確認しています。
 
-Windowsで利用する場合は、Claude Codeをインストールする前にGitをインストールしてください。
+Windowsで利用する場合は、Git for Windowsのインストールを推奨します。
+未インストールの場合、Claude CodeはシェルとしてPowerShellを使用します。
 
 ---
 
