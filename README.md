@@ -11,4 +11,4 @@
 
 Claude desktop をインストールする
 
-https://github.com/user-attachments/assets/bc5f8058-c01d-47ea-835f-cdb90c8cf10d
+[!https://github.com/user-attachments/assets/bc5f8058-c01d-47ea-835f-cdb90c8cf10d](https://github.com/user-attachments/assets/bc5f8058-c01d-47ea-835f-cdb90c8cf10d)
