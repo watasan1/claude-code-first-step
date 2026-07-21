@@ -11,6 +11,4 @@
 
 Claude desktop をインストールする
 
-![ロゴ]([images/logo.png "サイトロゴ"](https://github.com/user-attachments/assets/bc5f8058-c01d-47ea-835f-cdb90c8cf10d))
-
-![[https://github.com/user-attachments/assets/bc5f8058-c01d-47ea-835f-cdb90c8cf10d](https://github.com/user-attachments/assets/bc5f8058-c01d-47ea-835f-cdb90c8cf10d)
+<img width="651" height="445" alt="Image" src="https://github.com/user-attachments/assets/bc5f8058-c01d-47ea-835f-cdb90c8cf10d" />
