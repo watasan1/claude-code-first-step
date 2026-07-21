@@ -4,4 +4,4 @@
 
 ## Step 1 Claude desk top をインストールする
 
-Claude desktop
+Claude desktop をインストールする
