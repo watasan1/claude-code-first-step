@@ -6,8 +6,9 @@
 Claude Desktop：Claudeとチャットするためのデスクトップアプリ
 Claude Code：ターミナルから利用するAIコーディングツール
 
-本資料では、主にmacOSにおいて確認しております。
-windowsでは、Gitを必要としているので先にGitのインストールをしてからClaude を導入してください。
+本資料では主に macOS 環境で動作を確認しています。
+
+windowsで利用する場合は、Claude Codeのインストール前にGitをインストールしてください。
 
 ---
 
