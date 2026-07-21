@@ -56,9 +56,14 @@ LaunchpadからClaude Desktopを起動します。
 
 利用規約とプライバシーポリシーを確認し、チェックを入れて「アカウントを作成」をクリックします。
 
-### Step 4 Pro プロプランを契約する (20$/月)
+### Step 4 Pro プロプランを契約する $20/月、年払いの場合は$17/月）
 
+Claude Code をPro/Maxプランまたは重量課金（APIコンソール経由）で利用する必要があります。
 プランを選択し、「Pro プロプランを取得」をクリックします。
+
+※ Claude Desktopでのチャット自体は無料プランでも利用可能です。Claude Codeを使う場合にProプラン以上の契約が必要になります。
+
+2026年07月21日現在
 
 ### Step 5 初期設定を進める
 
@@ -89,7 +94,7 @@ Claudeから呼びかけられる際の表示名を入力します。
 
 [https://code.claude.com/docs/en/overview](https://code.claude.com/docs/en/overview)
 
-Step 1 Claude Codeをインストールする
+### Step 1 Claude Codeをインストールする
 
 ターミナルを開き、次のコマンドを実行します。
 
@@ -104,8 +109,6 @@ curl -fsSL https://claude.ai/install.sh | bash
 ```text
 ✔ Claude Code successfully installed!
 ```
-
-というテキストを確認して完了です。
 
 ### Step 2 PATHを設定する
 
@@ -130,6 +133,8 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
 例として claude フォルダを使用します。フォルダ名は任意です。
 
 4. 「ワークスペースを信頼しますか？」と表示されたら、「ワークスペースを信頼する」ボタンをクリックする
+
+※ Claude Code Desktop単体でファイルの閲覧・編集が可能です。VSCodeなど別のエディタを併用したい場合は、任意のタイミングで同じフォルダ（例：/Users/アカウント/Claude）を開いてください。
 
 5. VScode でプロジェクトを開く
 
