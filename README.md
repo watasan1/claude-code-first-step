@@ -105,6 +105,7 @@ curl -fsSL https://claude.ai/install.sh | bash
 
 ### Step 2 PATHを通す
 
+Claude Code コマンドをターミナルのどこからでも実行できるようにするため、PATHを設定します。
 
 （zshの場合。bashの場合は ~/.bashrc に読み替え）:
 
