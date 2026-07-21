@@ -1,12 +1,20 @@
 # claude-code-first-step
 
-本資料は、Claudeを初めて使う方が、アカウント作成からClaude Codeの導入、そして実際にHTML/CSS/JavaScriptでTodoリストアプリを完成させるまでを、一連の流れで体験できるようにまとめたものです。この手順に沿って進めることで、Claudeのセットアップからコード生成・修正・デバッグ・テスト・Gitでのバージョン管理まで、Claude Codeを使った基本的な開発フローをひと通り身につけることができます。
+本資料は、Claudeを初めて使う方を対象に、アカウント作成からClaude Codeの導入、そして実際にHTML/CSS/JavaScriptでTodoリストアプリを完成させるまでを、一連の流れで体験できるようにまとめたものです。
+この手順に沿って進めることで、Claudeのセットアップからコード生成・修正・デバッグ・テスト・Gitによるバージョン管理まで、Claude Codeを活用した基本的な開発フローを一通り体験できます。
+
+Claude Desktop：Claudeとチャットするためのデスクトップアプリ
+Claude Code：ターミナルから利用するAIコーディングツール
+
+---
 
 ## 1. Claude desktopの導入
 
 ### Step 1 ダウンローダーをインストールする
 
-公式サイトから、[https://claude.com/download](https://claude.com/download) 自分の端末にあったインストーラーボタンをクリックします。
+公式サイトから、自分のOSにあったインストーラーをダウンロードします。
+
+[https://claude.com/download](https://claude.com/download) 
 
 ### Step 2 Claude をアプリケーションフォルダにドラッグ&ドロップ
 
