@@ -5,10 +5,12 @@
 
 ## Step 1 ダウンローダーをインストールする
 
-公式サイトから、[https://claude.com/download](https://claude.com/download) 自分の端末にあったダウンローダーをクリックします。
+公式サイトから、[https://claude.com/download](https://claude.com/download) 自分の端末にあったインストーラーボタンをクリックします。
 
 ## Step 2 Claude desk top をインストールする
 
-Claude desktop をインストールする
+Claude desktop のインストーラーをダブルクリックすると。ClaudeをApplicationsにドラッグアンドドロップしてインストールを開始してください。
 
 <img width="651" height="445" alt="Image" src="https://github.com/user-attachments/assets/bc5f8058-c01d-47ea-835f-cdb90c8cf10d" />
+
+
