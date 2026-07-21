@@ -7,7 +7,7 @@
 
 公式サイトから、[https://claude.com/download](https://claude.com/download) 自分の端末にあったインストーラーボタンをクリックします。
 
-## Step 2 Claude desk top をインストールする
+## Step 2 Claude をアプリケーションフォルダにドラッグ&ドロップ
 
 Claude desktop をダブルクリックすると。Claudeのアイコンを「Applications」フォルダのアイコンへドラッグ&ドロップしてインストールします。
 
