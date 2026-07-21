@@ -4,8 +4,10 @@
 
 この手順に沿って進めることで、Claudeのセットアップからコード生成・修正・デバッグ・テスト・Gitによるバージョン管理まで、Claude Code を活用した基本的な開発フローを一通り体験できます。
 
-Claude Desktop：Claudeとチャットできるデスクトップアプリ
-Claude Code：ターミナルから利用できるAIコーディングツール
+## 用語について
+
+- Claude Desktop：Claudeとチャットできるデスクトップアプリ（1章でインストール）
+- Claude Code：ターミナルから利用できるAIコーディングツール。CLI（ターミナル）、デスクトップアプリ、Web版、IDE拡張など複数の形態で利用できます。本資料の4章以降で「Claude Code Desktop」と呼んでいるのは、このClaude Codeのデスクトップアプリ版を指します（1章のClaude Desktopとは別のアプリです）。
 
 本資料では主に macOS 環境で動作を確認しています。
 
