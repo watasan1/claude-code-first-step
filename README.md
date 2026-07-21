@@ -13,5 +13,9 @@ Claude desktop をダブルクリックすると。Claudeのアイコンを「Ap
 
 <img width="651" height="445" alt="Image" src="https://github.com/user-attachments/assets/bc5f8058-c01d-47ea-835f-cdb90c8cf10d" />
 
-## Step 3 
+## Step 3 アプリケーションを実行する
+
+インストールしたClaudeアプリのアイコンをLaunchpadからダブルクリック（または1回クリック）して起動します。
+
+## Step 4 
 
