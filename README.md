@@ -95,7 +95,7 @@ macOS:
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-次のメッセージが表示されたらインストール完了です。
+次のメッセージが表示されたらインストールは完了です。
 
 ```text
 ✔ Claude Code successfully installed!
