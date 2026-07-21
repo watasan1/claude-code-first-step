@@ -22,3 +22,5 @@ macOS のセキュリティ確認ダイアログが表示されます。
 開いてもよろしいでしょうか？ 開くボタンをクリックして起動を許可します。
 
 ## Step 4 
+
+<img width="560" height="493" alt="Image" src="https://github.com/user-attachments/assets/82ba07fa-907e-40aa-a143-9bb4d41d89bf" />
