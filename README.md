@@ -23,4 +23,8 @@ macOS のセキュリティ確認ダイアログが表示されます。
 
 ## Step 4 「始める」　ボタンをクリックします
 
+ウェルカム画面が表示されたら「始める」をクリックして設定を進めます。
+
 <img width="560" height="493" alt="Image" src="https://github.com/user-attachments/assets/82ba07fa-907e-40aa-a143-9bb4d41d89bf" />
+
+
