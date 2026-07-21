@@ -69,7 +69,7 @@ Claudeから呼びかけられる際の表示名を入力します。
 
 ### Step 2 Claude Code Desktop をアプリケーションフォルダへ移動する
 
-ダウンロードしたインストーラーを開き、Claude Codeのアイコンを「Applications」フォルダへドラッグ&ドロップします。
+ダウンロードしたインストーラーを開き、Claude Code Desktopのアイコンを「Applications」フォルダへドラッグ&ドロップします。
 
 <img width="651" height="445" alt="Image" src="https://github.com/user-attachments/assets/bc5f8058-c01d-47ea-835f-cdb90c8cf10d" />
 
