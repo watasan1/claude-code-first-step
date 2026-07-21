@@ -1,13 +1,12 @@
 # claude-code-first-step
 
-本資料は、Claudeを初めて利用する方を対象に、アカウント作成からClaude Code の導入、そして実際にHTML / CSS / JavaScriptを使ったTodoアプリの作成までを、一連の流れで体験できるようにまとめたものです。
-
-この手順に沿って進めることで、Claudeのセットアップからコード生成・修正・デバッグ・テスト・Gitによるバージョン管理まで、Claude Code を活用した基本的な開発フローを一通り体験できます。
+本資料は、プログラミング学習を目的にClaudeを初めて利用する方を対象に、アカウント作成からClaude Code Desktopの導入、そして実際にHTML / CSS / JavaScriptを使ったTodoアプリの作成までを、一連の流れで体験できるようにまとめたものです。
 
 ## 用語について
 
+- Claude Code：ターミナルから利用できるAIコーディングツール。CLI（ターミナル）、デスクトップアプリ、Web版、IDE拡張など複数の形態で利用できます。
 - Claude Desktop：Claudeとチャットできるデスクトップアプリ（1章でインストール）
-- Claude Code：ターミナルから利用できるAIコーディングツール。CLI（ターミナル）、デスクトップアプリ、Web版、IDE拡張など複数の形態で利用できます。本資料の4章以降で「Claude Code Desktop」と呼んでいるのは、このClaude Codeのデスクトップアプリ版を指します（1章のClaude Desktopとは別のアプリです）。
+のClaude Codeのデスクトップアプリ版を指します（1章のClaude Desktopとは別のアプリです）。
 
 本資料では主に macOS 環境で動作を確認しています。
 
