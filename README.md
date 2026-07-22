@@ -60,11 +60,11 @@ Claudeから呼びかけられる際の表示名を入力します。
 
 ---
 
-## 2. Claude Code Desktop をインストールする
+## 2. Claude デスクトップアプリ をインストールする
 
-### Step 1 Claude Code Desktopのインストーラーをダウンロードする
+### Step 1 Claude デスクトップアプリのインストーラーをダウンロードする
 
-公式サイトから、自分のOSに合ったClaude Code Desktopのインストーラーをダウンロードします。
+公式サイトから、自分のOSに合ったClaude デスクトップアプリのインストーラーをダウンロードします。
 
 [https://claude.com/download](https://claude.com/download) 
 
