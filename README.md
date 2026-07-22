@@ -98,9 +98,7 @@ LaunchpadからClaudeデスクトップアプリを起動します。
 
 筆者の場合 Googleで続けるボタンをクリックします。
 
-画像を入れる
-
-screenshot-claude-signin.png
+<img width="600" height="599" alt="Image" src="https://github.com/user-attachments/assets/52c0edb5-ddb7-4034-a451-64e1ce535a9f" />
 
 筆者は、Google アカウントで登録したので、"Claude"から"claude.com"を使用してサインインしようとしています
 
