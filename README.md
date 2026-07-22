@@ -60,37 +60,40 @@ Claudeから呼びかけられる際の表示名を入力します。
 
 ---
 
-## 2. Claude デスクトップアプリ をインストールする
+## 2. Claudeデスクトップアプリをインストールする
 
-### Step 1 Claude デスクトップアプリのインストーラーをダウンロードする
+### Step 1 Claudeデスクトップアプリのインストーラーをダウンロードする
 
-公式サイトから、自分のOSに合ったClaude デスクトップアプリのインストーラーをダウンロードします。
+公式サイトから、自分のOSに合ったClaudeデスクトップアプリのインストーラーをダウンロードします。
 
 [https://claude.com/download](https://claude.com/download) 
 
-### Step 2 Claude Code Desktop をアプリケーションフォルダへ移動する
+### Step 2 Claudeデスクトップアプリをアプリケーションフォルダへ移動する
 
-ダウンロードしたインストーラーを開き、Claude Code Desktopのアイコンを「Applications」フォルダへドラッグ&ドロップします。
+ダウンロードしたインストーラーを開き、Claudeデスクトップアプリのアイコンを「Applications」フォルダへドラッグ&ドロップします。
 
 <img width="651" height="445" alt="Image" src="https://github.com/user-attachments/assets/bc5f8058-c01d-47ea-835f-cdb90c8cf10d" />
 
 ---
 
-## 3. Claude Code Desktop を起動する
+## 3. Claudeデスクトップアプリを起動する
 
-LaunchpadからClaude Code Desktopを起動します。
+LaunchpadからClaudeデスクトップアプリを起動します。
 
 初回起動時にmacOSのセキュリティ確認ダイアログが表示された場合は、「開く」ボタンをクリックします。
 
 ※ Windowsで利用する場合は、Git for Windowsのインストールを推奨します。未インストールの場合、Claude CodeはシェルとしてPowerShellを使用します。
 
-### Step 1 初期設定を開始する
+### Step 1 Claudeデスクトップアプリ初期設定を開始する
 
 ウェルカム画面が表示されたら、「始める」をクリックします。
 
 <img width="560" height="493" alt="Image" src="https://github.com/user-attachments/assets/82ba07fa-907e-40aa-a143-9bb4d41d89bf" />
 
 ---
+
+
+
 
 ## 3. Claude Code desktop を導入する
 
