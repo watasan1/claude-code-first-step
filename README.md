@@ -86,15 +86,36 @@ LaunchpadからClaudeデスクトップアプリを起動します。
 
 ※ Windowsで利用する場合は、Git for Windowsのインストールを推奨します。未インストールの場合、Claude CodeはシェルとしてPowerShellを使用します。
 
-### Step 2 Claudeデスクトップアプリの初期設定を開始する
+### Step 2 Claudeデスクトップアプリのログイン
 
 ウェルカム画面が表示されたら、「始める」をクリックします。
 
 <img width="560" height="493" alt="Image" src="https://github.com/user-attachments/assets/82ba07fa-907e-40aa-a143-9bb4d41d89bf" />
 
-### Step 3 Claudeデスクトップアプリにログインする
+### Step 3 Claudeデスクトップアプリにサインイン
+
+サインイン画面が表示されたら、1章で作成した、Claudeアカウントでサインインします。
+
+筆者の場合 Googleで続けるボタンをクリックします。
+
+画像を入れる
+
+screenshot-claude-signin.png
+
+筆者は、Google アカウントで登録したので、"Claude"から"claude.com"を使用してサインインしようとしています
+
+これを行うと、アプリとWebサイトにあなたに関する情報を共有することを許可します。と表示されたら、「続ける」ボタンをクリックします。
 
 
+画像を入れる
+
+screenshot-claude-confirmation.png
+
+Googleでログイン
+
+アカウントを選択してください「Claude」に移動　画面が表示されたらgoogle アカウントをクリックしてログインしてください。
+
+Claudeに再ログインしようとしています。規約を確認して「次へ」をクリックしてください。
 
 ### Step 2 作業フォルダを準備する
 
