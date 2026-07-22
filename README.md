@@ -63,9 +63,7 @@ Claudeから呼びかけられる際の表示名を入力します。
 
 ### Step 1 Claudeデスクトップアプリのインストーラーをダウンロードする
 
-公式サイトから、自分のOSに合ったClaudeデスクトップアプリのインストーラーをダウンロードします。
-
-[https://claude.com/download](https://claude.com/download) 
+公式サイト（[https://claude.com/download](https://claude.com/download)）から、自分のOSに合ったClaudeデスクトップアプリのインストーラーをダウンロードします。
 
 ### Step 2 Claudeデスクトップアプリをアプリケーションフォルダへ移動する
 
@@ -103,7 +101,7 @@ LaunchpadからClaudeデスクトップアプリを起動します。
 
 <img width="305" height="347" alt="Image" src="https://github.com/user-attachments/assets/7df77502-a39d-4e34-aea8-cfb9eb582c3e" />
 
-- Googleでログインする場合
+#### Googleでログインする場合
 
 アカウントを選択してください「Claude」に移動　画面が表示されたらgoogle アカウントをクリックしてログインしてください。
 
