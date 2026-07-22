@@ -92,56 +92,21 @@ LaunchpadからClaudeデスクトップアプリを起動します。
 
 ---
 
-
-
-
-## 3. Claude Code desktop を導入する
-
-公式ドキュメントに従って Claude Code desktop をインストールします。
-
-[https://code.claude.com/docs/en/overview](https://code.claude.com/docs/en/overview)
-
-### Step 1 Claude Code desktopをインストールする
-
-ターミナルを開き、次のコマンドを実行します。
-
-macOS:
-
-```Bash
-curl -fsSL https://claude.ai/install.sh | bash
-```
-
-次のメッセージが表示されたらインストールは完了です。
-
-```text
-✔ Claude Code successfully installed!
-```
-
-### Step 2 PATHを設定する
-
-Claude Code コマンドをどこからでも実行できるようにPATHを設定します。
-
-（zshの場合。bashの場合は ~/.bashrc に読み替えてください）
-
-```Bash
-echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
-```
-
-## 4. Claude Code desktop を使ってみる
+## 4. Claudeデスクトップアプリを利用してみる
 
 ### Step 1 作業フォルダを準備する
 
-1. Claude Code Desktop を起動する
+1. Claudeデスクトップアプリを起動する
 2. 「フォルダを選択」をクリックする
 3. `claude` フォルダを作成して選択する
 
-例として claude フォルダを使用します。フォルダ名は任意です。
+例として「claude」フォルダを使用します。フォルダ名は任意です。
 
-4. 「ワークスペースを信頼しますか？」と表示されたら、「ワークスペースを信頼する」ボタンをクリックする
+### Step 2 「ワークスペースを信頼しますか？」と表示されたら、「ワークスペースを信頼する」ボタンをクリックします。
 
 ※ Claude Code Desktop単体でファイルの閲覧・編集が可能です。VSCodeなど別のエディタを併用したい場合は、任意のタイミングで同じフォルダ（例：/Users/アカウント/Claude）を開いてください。
 
-5. VScode でプロジェクトを開く
+### Step 3 VScode でプロジェクトを開く
 
 例
 ```text
@@ -278,6 +243,38 @@ READMEには次の内容をまとめます。
 ---
 
 ## 6. ターミナルでClaudeを実行してみる
+
+## 4. Claude Code をターミナルから使えるようにします
+
+公式ドキュメントに従って Claude Code desktop をインストールします。
+
+[https://code.claude.com/docs/en/overview](https://code.claude.com/docs/en/overview)
+
+### Step 1 Claude Code desktopをインストールする
+
+ターミナルを開き、次のコマンドを実行します。
+
+macOS:
+
+```Bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+次のメッセージが表示されたらインストールは完了です。
+
+```text
+✔ Claude Code successfully installed!
+```
+
+### Step 2 PATHを設定する
+
+Claude Code コマンドをどこからでも実行できるようにPATHを設定します。
+
+（zshの場合。bashの場合は ~/.bashrc に読み替えてください）
+
+```Bash
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
+```
 
 ターミナルを起動して、以下のコマンドを実行する
 
