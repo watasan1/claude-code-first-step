@@ -105,9 +105,7 @@ LaunchpadからClaudeデスクトップアプリを起動します。
 これを行うと、アプリとWebサイトにあなたに関する情報を共有することを許可します。と表示されたら、「続ける」ボタンをクリックします。
 
 
-画像を入れる
-
-screenshot-claude-confirmation.png
+<img width="305" height="347" alt="Image" src="https://github.com/user-attachments/assets/7df77502-a39d-4e34-aea8-cfb9eb582c3e" />
 
 Googleでログイン
 
