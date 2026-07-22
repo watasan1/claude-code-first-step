@@ -4,6 +4,7 @@
 
 ## 用語について
 
+- Claude：Anthropicが提供するAI全体のブランド名をClaudeといいます。AnthropicのClaudeアカウントを作成します。
 - Claude Code：ターミナルから利用できるAIコーディングツール。CLI（ターミナル）、デスクトップアプリ、Web版、IDE拡張など複数の形態で利用できます。
 - Claude Code Desktop：Claude Codeのデスクトップアプリ版。ファイル編集・ターミナル操作・ブラウザレビュー・Git連携などをGUIで行えます。本資料ではこのアプリを中心に手順を進めます。
 
