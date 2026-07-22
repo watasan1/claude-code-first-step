@@ -73,7 +73,9 @@ Claudeから呼びかけられる際の表示名を入力します。
 
 <img width="651" height="445" alt="Image" src="https://github.com/user-attachments/assets/bc5f8058-c01d-47ea-835f-cdb90c8cf10d" />
 
-### Step 3 Claude Code Desktop を起動する
+---
+
+## 3. Claude Code Desktop を起動する
 
 LaunchpadからClaude Code Desktopを起動します。
 
@@ -81,7 +83,7 @@ LaunchpadからClaude Code Desktopを起動します。
 
 ※ Windowsで利用する場合は、Git for Windowsのインストールを推奨します。未インストールの場合、Claude CodeはシェルとしてPowerShellを使用します。
 
-### Step 4 初期設定を開始する
+### Step 1 初期設定を開始する
 
 ウェルカム画面が表示されたら、「始める」をクリックします。
 
