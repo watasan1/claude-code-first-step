@@ -76,7 +76,9 @@ Claudeから呼びかけられる際の表示名を入力します。
 
 ---
 
-## 3. Claudeデスクトップアプリを起動する
+## 3. Claudeデスクトップアプリの基本操作
+
+### Step 1 Claudeデスクトップアプリを起動する
 
 LaunchpadからClaudeデスクトップアプリを起動します。
 
@@ -84,25 +86,20 @@ LaunchpadからClaudeデスクトップアプリを起動します。
 
 ※ Windowsで利用する場合は、Git for Windowsのインストールを推奨します。未インストールの場合、Claude CodeはシェルとしてPowerShellを使用します。
 
-### Step 1 Claudeデスクトップアプリの初期設定を開始する
+### Step 2 Claudeデスクトップアプリの初期設定を開始する
 
 ウェルカム画面が表示されたら、「始める」をクリックします。
 
 <img width="560" height="493" alt="Image" src="https://github.com/user-attachments/assets/82ba07fa-907e-40aa-a143-9bb4d41d89bf" />
 
----
-
-## 4. Claudeデスクトップアプリの基本操作に慣れる
-
-### Step 1 Claudeデスクトップアプリにログインする
+### Step 3 Claudeデスクトップアプリにログインする
 
 
 
-### Step 1 作業フォルダを準備する
+### Step 2 作業フォルダを準備する
 
-1. Claudeデスクトップアプリを起動する
-2. 「フォルダを選択」をクリックする
-3. `claude` フォルダを作成して選択する
+「フォルダを選択」をクリックする
+ `claude` フォルダを作成して選択する
 
 例として「claude」フォルダを使用します。フォルダ名は任意です。
 
