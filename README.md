@@ -12,8 +12,6 @@
 
 （参考） Windowsで利用する場合は、Git for Windowsのインストールを推奨します。未インストールの場合、Claude CodeはシェルとしてPowerShellを使用します。
 
-未インストールの場合、Claude CodeはシェルとしてPowerShellを使用します。
-
 ---
 
 ## 1. Claude アカウントを作成する
