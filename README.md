@@ -91,10 +91,9 @@ LaunchpadからClaude Code Desktopを起動します。
 
 ---
 
+## 3. Claude Code desktop を導入する
 
-## 3. Claude Code を導入する
-
-公式ドキュメントに従って Claude Code をインストールします。
+公式ドキュメントに従って Claude Code desktop をインストールします。
 
 [https://code.claude.com/docs/en/overview](https://code.claude.com/docs/en/overview)
 
@@ -176,7 +175,7 @@ Subagent — サブエージェントの出力
 
 - Hello Worldを表示するJavaScriptを作成してください
 - hello.js をNode.jsで実行してください
-- index.htmlを作成し。シンプルなランディングページを作成してください
+- index.htmlを作成し、シンプルなランディングページを作成してください
 
 ---
 
