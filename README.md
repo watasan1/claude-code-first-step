@@ -84,7 +84,7 @@ LaunchpadからClaudeデスクトップアプリを起動します。
 
 ※ Windowsで利用する場合は、Git for Windowsのインストールを推奨します。未インストールの場合、Claude CodeはシェルとしてPowerShellを使用します。
 
-### Step 1 Claudeデスクトップアプリ初期設定を開始する
+### Step 1 Claudeデスクトップアプリの初期設定を開始する
 
 ウェルカム画面が表示されたら、「始める」をクリックします。
 
