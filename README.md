@@ -247,15 +247,11 @@ READMEには次の内容をまとめます。
 
 ---
 
-## 6. ターミナルでClaudeを実行してみる
+## 6. ターミナルからClaude Codeを実行できるようにする
 
-Claude Code をターミナルから使えるようにします
+### Step 1 Claude Code CLI（ターミナル版のClaude Code）本体をローカルマシンにインストールします。
 
-公式ドキュメントに従って Claude Code desktop をインストールします。
-
-[https://code.claude.com/docs/en/overview](https://code.claude.com/docs/en/overview)
-
-### Step 1 Claude Code desktopをインストールする
+公式サイト（[https://code.claude.com/docs/en/overview](https://code.claude.com/docs/en/overview)）から配布されているインストーラーをダウンロードして実行します。
 
 ターミナルを開き、次のコマンドを実行します。
 
@@ -290,21 +286,17 @@ claude --version
 
 インストールされていることを確認します。
 
-
-### Step 6 VS Code でプロジェクトを開く
-
-例
-```text
-：/Users/アカウント/claude
-```
-
-※ フォルダ名は任意です。
-
 ---
 
-起動方法
+### Step 3 Claude Code を起動する
 
-作業ディレクトリに移動して以下のコマンドを実行します。
+作業ディレクトリに移動します。
+
+```bash
+cd claude
+```
+
+Claude Code を起動するコマンドを実行する。
 
 ```bash
 claude
@@ -396,9 +388,6 @@ Claude Codeのターミナル設定を使用しますか？
    2. No, exit
 
  Enter to confirm · Esc to cancel
-
-
-
 
 ---
 
