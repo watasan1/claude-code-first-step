@@ -247,7 +247,7 @@ READMEには次の内容をまとめます。
 
 ---
 
-## 6. ターミナルからClaude Codeを実行できるようにする
+## 5. ターミナルからClaude Codeを実行できるようにする
 
 ### Step 1 Claude Code CLI（ターミナル版のClaude Code）本体をローカルマシンにインストールします。
 
