@@ -351,7 +351,7 @@ Claude Codeの準備が整いました。
 このウィンドウを閉じることができます。
 
 
- Logged in as ishiwatahirotaka1012@gmail.com
+ Logged in as アカウント@gmail.com
  Login successful. Press Enter to continue…
 
 Enter キーをクリックします。
