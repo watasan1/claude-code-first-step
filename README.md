@@ -100,8 +100,6 @@ LaunchpadからClaudeデスクトップアプリを起動します。
 
 サインイン画面が表示されたら、1章で作成した、Claudeアカウントでサインインします。
 
-サインイン画面が表示されたら、1章で作成したClaudeアカウントでサインインします。
-
 ここではGoogleアカウントでログインする例を示します。「Googleで続ける」ボタンをクリックします。
 
 <img width="600" height="599" alt="Image" src="https://github.com/user-attachments/assets/52c0edb5-ddb7-4034-a451-64e1ce535a9f" />
