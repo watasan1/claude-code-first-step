@@ -494,9 +494,9 @@ which trash
 /usr/bin/trash
 ```
 
-と表示されたらtrash がインストール済みです（macOS Sequoia 以降のみ）。
+と表示されたらtrash がインストール済みです。
 
-表示されなかったら trash をHomebrewからインストールしてください。
+表示されなかった場合はtrashをHomebrewからインストールしてください。
 
 ```bash
 brew install trash
@@ -508,19 +508,21 @@ pathを通す
 echo 'export PATH="/opt/homebrew/opt/trash/bin:$PATH"' >> ~/.zshrc
 ```
 
-2. 運用
+2. rm を trashに置き換える
 
 プロジェクト直下で実行します。
 
 ```bash
-echo '
+grep -qF 'rm() {' ~/.zshrc || cat >> ~/.zshrc << 'EOF'
+
 rm() {
-  while [[ "$1" == -* ]]; do
+  while [[ "$1" == -* && "$1" != "--" ]]; do
     shift
   done
+  [[ "$1" == "--" ]] && shift
   trash "$@"
 }
-' >> ~/.zshrc
+EOF
 ```
 
 3. 設定反映させる
