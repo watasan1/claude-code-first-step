@@ -462,21 +462,19 @@ Enter to confirm · Esc to skip
 
 ---
 
-## 6. Claude Code （ターミナル操作）の基本操作
+## 6. Claude Code（ターミナル操作）の基本操作
 
 ### Step 1. ファイルやフォルダの削除
 
 前提
-macOSで確認しています。
 
-Windows PowerShell スクリプトを作成
-Linux では　trash-cli というパッケージ
+macOSで確認しています（Appleネイティブの trash コマンドは macOS Sequoia (15) 以降 のみ搭載。Sonoma (14) 以前では標準搭載されていないため、後述のHomebrew版が必要です）。
 
-他のOSでも同じように作ることができるそうです。
+Windowsでは、PowerShellスクリプトを作成、Linux ではtrash-cliというパッケージを使うことで、他のOSでも同様の仕組みを作れるそうです。
 
-Claude Code 上から、ファイルやフォルダを削除を依頼することは多いと思います。
+Claude Code上から、ファイルやフォルダの削除を依頼することは多いと思います。Claude Codeがファイルやフォルダを削除するとき、rmコマンドを使います。
 
-Claude Code がファイルやフォルダを削除するとき、 rmコマンドを使ってファイルやフォルダを削除します。
+
 
 このコマンドは、強力なコマンドで、一瞬でファイルやフォルダを削除できます。
 
