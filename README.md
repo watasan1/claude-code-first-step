@@ -507,7 +507,7 @@ brew install trash
 pathを通す
 
 ```bash
-echo 'export PATH="/opt/homebrew/opt/trash/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
 ```
 
 6-1-3. rm を trashに置き換える
@@ -537,5 +537,11 @@ source ~/.zshrc
 
 とすると、rm コマンドが入力されたら trash コマンドに自動的に変わります。
 
+6-1-5. 動作確認する
 
+設定が実際に効いているかを確認します。特にClaude Codeのようなツールからコマンドが実行される場合、シェルが .zshrc を読み込まない設定になっていると、この関数は機能しません。次のコマンドで rm がシェル関数として定義されているか確認してください
+
+```bash
+command -v rm
+```
 
