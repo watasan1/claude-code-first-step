@@ -516,6 +516,8 @@ echo 'export PATH="/opt/homebrew/opt/trash/bin:$PATH"' >> ~/.zshrc
 
 2. 運用
 
+プロジェクト直下で実行します。
+
 ```bash
 echo '
 rm() {
