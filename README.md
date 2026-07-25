@@ -470,7 +470,7 @@ Enter to confirm · Esc to skip
 
 macOSで確認しています（Appleネイティブの trash コマンドは macOS Sequoia (15) 以降 のみ搭載。Sonoma (14) 以前では標準搭載されていないため、後述のHomebrew版が必要です）。
 
-Windowsでは、PowerShellスクリプトを作成、Linux ではtrash-cliというパッケージを使うことで、他のOSでも同様の仕組みを作れるそうです。
+Windowsでは、PowerShellスクリプトを作成、Linuxではtrash-cliというパッケージを使うことで、他のOSでも同様の仕組みを作れるそうです。
 
 Claude Code上からファイルやフォルダの削除を依頼することは多いと思います。
 Claude Codeがファイルやフォルダを削除するとき、rm コマンドを使います。
