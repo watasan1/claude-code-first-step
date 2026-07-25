@@ -484,6 +484,10 @@ Claude Code がファイルやフォルダを削除するとき、 rmコマン�
 
 それを叶えるコマンドがあります。それは、trashコマンドです
 
+ユーザーが、Claude Codeファイルに削除依頼をするとrmコマンドで削除されます。
+
+それをrmコマンドが入力されたら自動的にtrashコマンドが使われるようにします。
+
 1. trash コマンドを確認する
 
 ターミナルから以下のコマンドを実行して、trash コマンドが利用できるか確認します。
@@ -510,4 +514,18 @@ pathを通す
 echo 'export PATH="/opt/homebrew/opt/trash/bin:$PATH"' >> ~/.zshrc
 ```
 
+2. 運用
+
+```bash
+echo '
+rm() {
+  while [[ "$1" == -* ]]; do
+    shift
+  done
+  trash "$@"
+}
+' >> ~/.zshrc
+```
+
+とすると、rm コマンドが入力されたら trash コマンドに自動的に変わります。
 
