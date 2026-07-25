@@ -392,7 +392,7 @@ Select login method:
 
 1. サブスクリプション付きのClaudeアカウント（Pro、Max、Team、Enterpriseプラン）
 2. Anthropic Consoleアカウント（API利用に応じた従量課金）
-3. サードパーティ・プラットフォーム（Amazon Bedrock、Microsoft Foundry、Vertex AI）
+3. サードパーティ・プラットフォーム（Amazon Bedrock、Microsoft Foundry、Vertex AI）
 
 本資料の1章でProプランを契約しているので、「1. Claude account with subscription」を選択します。
 
@@ -431,7 +431,7 @@ for your terminal: Option+Enter for newlines and no audible bell
 Enter to confirm · Esc to skip
 ```
 
-日本語訳：Claude Codeのターミナル設定を使用しますか？
+日本語訳：Claude Codeのターミナル設定を使用しますか？
 
 「1. はい、推奨設定を使用する」を選択します。
 
@@ -463,7 +463,7 @@ Enter to confirm · Esc to skip
 
 ## 6. Claude Code（ターミナル利用時）の操作
 
-### Step 1. ファイルやフォルダの削除
+### Step 1 ファイルやフォルダの削除
 
 前提
 
@@ -481,12 +481,12 @@ Claude Codeがファイルやフォルダを削除するとき、rm コマンド
 Claude Codeでは、ユーザーがファイル削除を依頼するとrmコマンドで削除されます。
 これを、rm コマンドが入力されたら自動的にtrashコマンドが使われるように置き換えます。
 
-6-1-1. trash コマンドを確認する
+1. trash コマンドを確認する
 
 ターミナルから以下のコマンドを実行して、trash コマンドが利用可能か確認します。
 
 ```bash
-which trash            
+which trash
 ```
 
 ```text
@@ -495,7 +495,7 @@ which trash
 
 と表示されたらtrash がインストール済みです。
 
-6-1-2. trash コマンドをインストールする（未インストールの場合）
+2. trash コマンドをインストールする（未インストールの場合）
 
 which trash コマンドを実行しても何も表示されなかった場合は、Homebrewからインストールしてください。
 
@@ -509,7 +509,7 @@ pathを通す
 echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
 ```
 
-6-1-3. rm を trashに置き換える
+3. rm を trashに置き換える
 
 以下のコマンドをターミナルで実行します。
 
@@ -526,7 +526,7 @@ rm() {
 EOF
 ```
 
-6-1-4. 設定を反映させる
+4. 設定を反映させる
 
 ```bash
 source ~/.zshrc
@@ -534,20 +534,35 @@ source ~/.zshrc
 
 とすると、rm コマンドが入力されたら trash コマンドに自動的に変わります。
 
-6-1-5. 動作確認する
+5. 動作確認する
 
 Claude Codeに実際に削除を依頼して、rmコマンドをtrashコマンドに置き換える設定が効いているか確認します。
 
-1. Claude Codeに、作業フォルダ（例：~/claude）直下にtempフォルダを作成してテスト用のファイルを作成してください。
-（例：「作業フォルダ直下にtempフォルダを作成し、test.txtというファイルを作成してください」）
+1. Claude Codeに、作業フォルダ（例：`~/claude`）直下にtempフォルダを作成し、その中にテスト用のファイルを作成するよう依頼します。
+（例：「作業フォルダ直下にtempフォルダを作成し、その中にtest.txtというファイルを作成してください」）
 
-2. 作業フォルダに test.txtが作成されたことを確認します。
+2. 作業フォルダのtempフォルダの中に test.txt が作成されたことを確認します。
 （例：目視で確認します）
 
-4. Claude Codeに、そのtempフォルダとその中身を削除するよう依頼します。
-5. claude フォルダに tempフォルダがないことを確認します。
+3. Claude Codeに、そのtempフォルダとその中身を削除するよう依頼します。
+（例：「tempフォルダを削除してください」）
+
+4. 作業フォルダからtempフォルダが消えていることを確認します。
 （例：目視で確認します）
   
-6. Finderで「ゴミ箱」を開き tempフォルダが入っていることを確認します。
+5. Finderで「ゴミ箱」を開き、tempフォルダが入っていることを確認します。
 
-claudeフォルダtempフォルダから消えていて、かつゴミ箱にtempフォルダが入っていれば、 Claude Codeからの削除依頼が rm ではなく trash 経由で行われ、完全消去ではなくゴミ箱移動になっていることが確認できます。
+作業フォルダからtempフォルダが消えていて、かつゴミ箱に tempフォルダが入っていれば、 Claude Codeからの削除依頼が `rm`コマンド ではなく `trash`コマンド 経由で行われ、完全消去ではなくゴミ箱移動になっていることが確認できます。
+
+
+※ この確認が重要なのは、Claude Codeがコマンドを実行するときのシェル環境が `.zshrc` を読み込んでいるとは限らないためです。手元のターミナルで `rm` の設定を確認できても、Claude Code自身が同じ設定を使ってコマンドを実行するとは限りません。実際にClaude Codeへ削除を依頼して結果を確認するのが、最も確実な検証方法です。
+
+もしゴミ箱に入らずtempフォルダが完全に消えてしまった場合は、Claude Codeが使うシェル環境が `.zshrc` を読み込んでいない可能性があります。参考として、手元のターミナルで以下を実行すると、少なくともそのターミナル上で `rm` がシェル関数として解決されているかを確認できます（`command -v` はパスを伴わず名前だけが表示されれば関数として解決されている、という意味です）。
+
+```bash	
+command -v rm	
+```
+
+```text	
+rm	
+```
