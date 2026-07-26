@@ -218,9 +218,9 @@ Claude CodeではGit操作も依頼できます。まずコミットメッセー
 
 ## 4. ハンズオン
 
-このハンズオンでは、HTML / CSS / JavaScriptのみを使用してTodoアプリを作成します。
+実際にClaude Codeへ指示を出しながらTodoアプリを作成します。
 
-最後にREADMEの作成、テスト、Gitコミットまで行い、Claude Codeを使った一連の開発フローを体験します。
+HTML / CSS / JavaScriptのみを使用して、最後にREADMEの作成、テスト、Gitコミットまでこなうことで、Claude Codeを使った一連の開発フローを体験します。
 
 以下の各Stepの文章は、そのままClaudeへの入力プロンプトとして使えます。
 
@@ -238,7 +238,7 @@ todo_appという名前のフォルダを作成してください
 
 ### Step 3 Todoアプリを作成する
 
-HTML　CSS　JavaScriptのみを使用して、次の機能を持つTodoアプリを作成してください
+HTML / CSS / JavaScriptのみを使用して、次の機能を持つTodoアプリを作成してください
 
 - Todoの登録
 - Todoの一覧表示
@@ -265,12 +265,13 @@ HTML　CSS　JavaScriptのみを使用して、次の機能を持つTodoアプ�
 
 todo_appフォルダに、README.mdを作成してくだい
 
-README.mdには次の内容をまとめてください
+README.mdには次の内容をまとめてください。
  
 - プロジェクト概要
 - 使用技術
 - セットアップ方法
 - 使い方
+- ディレクトリ構成
 
 ---
 
