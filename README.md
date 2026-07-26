@@ -285,9 +285,9 @@ README.mdには次の内容をまとめてください。
 
 ---
 
-## 6. Claude Codeをターミナルで使う
+## 6. Claude Code(CLI)をターミナルで使う
 
-### 6-1. Claude Code CLIをインストールする
+### 6-1. Claude Codeをインストールする
 
 公式ドキュメント（[https://code.claude.com/docs/en/overview](https://code.claude.com/docs/en/overview)）
 に記載の手順に従い、以下のコマンドでインストールします。
@@ -330,7 +330,7 @@ claude --version
 
 ---
 
-### 6-3. Claude Code CLIの初期設定を行う
+### 6-3. Claude Codeの初期設定を行う
 
 作業ディレクトリに移動します。
 
