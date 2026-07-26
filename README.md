@@ -410,7 +410,7 @@ Claude Codeの準備が整いました。
  Login successful. Press Enter to continue…
 ```
 
-Enter キーを押します。
+Enterキーを押します。
 
 ---
 
