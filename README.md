@@ -274,7 +274,7 @@ HTML/CSS/JavaScriptのみを使用して、次の機能を持つTodoアプリを
 
 todo_appフォルダに、README.mdを作成してください
 
-README.mdには次の内容をまとめてください。
+README.mdには、次の内容をまとめてください。
  
 - プロジェクト概要
 - 使用技術
