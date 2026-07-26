@@ -204,7 +204,7 @@ Claude CodeではGit操作も依頼できます。まずコミットメッセー
 
 ---
 
-### 4-6. CLAUDE.md をを活用する
+### 4-6. CLAUDE.md を活用する
 
 プロジェクトフォルダに `CLAUDE.md` を配置すると、Claude Codeは起動時に自動で読み込みます。
 
