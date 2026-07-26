@@ -524,7 +524,7 @@ echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
 Intel Macの場合
 
 ```bash
-echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash
+echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
 ```
 
 ### 7-4. rm を trashに置き換える
