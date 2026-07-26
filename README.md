@@ -330,7 +330,7 @@ claude --version
 
 ---
 
-### 6-3. Claude Code を起動する
+### 6-3. Claude Code CLIを起動する
 
 作業ディレクトリに移動します。
 
