@@ -330,7 +330,7 @@ claude --version
 
 ---
 
-### 6-3. Claude Code CLIを初期設定を行う
+### 6-3. Claude Code CLIの初期設定を行う
 
 作業ディレクトリに移動します。
 
