@@ -500,7 +500,7 @@ which trash
 
 ### 7-3. trashコマンドをインストールする（未インストールの場合）
 
-`which trash` コマンドが見つからなかった場合は、Homebrewからインストールしてください。
+`which trash` コマンドを実行しても何も表示されなかった場合は、Homebrewからインストールしてください。
 
 ```bash
 brew install trash
