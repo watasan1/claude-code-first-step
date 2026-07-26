@@ -75,7 +75,9 @@ Claudeから呼びかけられる際の表示名を入力します。
 
 ### 2-1. Claudeデスクトップアプリのインストーラーをダウンロードする
 
-（[Claude Desktop ダウンロードページ](https://claude.com/download)）から、自分のOSに合ったClaudeデスクトップアプリのインストーラーをダウンロードします。
+
+ブラウザで（[Claude 公式サイト](https://claude.com/download)）にアクセスします。
+自分のOSに合ったClaudeデスクトップアプリのインストーラーをダウンロードします。
 
 ---
 
