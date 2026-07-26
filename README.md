@@ -12,7 +12,7 @@
 
 （参考）Windows環境については未検証のため、本資料では扱いません。
 
-先んじて試される場合は、windows powershellから、Git for Windowsをインストールしておくと導入しやすくなります。
+先んじて試される場合は、windows PowerShellから、Git for Windowsをインストールしておくと導入しやすくなります。
 
 ---
 
