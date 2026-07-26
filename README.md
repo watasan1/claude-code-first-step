@@ -1,6 +1,6 @@
 # claude-code-first-step
 
-本資料は、プログラミング学習を目的にClaudeを初めて利用する方を対象に、アカウント作成からClaude デスクトップアプリの導入、そして実際にHTML / CSS / JavaScriptを使ったTodoアプリの作成までを、一連の流れで体験できるようにまとめたものです。
+本資料は、プログラミング学習を目的にClaudeを初めて利用する方を対象に、アカウント作成からClaude デスクトップアプリの導入、そして実際にHTML/CSS/JavaScriptを使ったTodoアプリの作成までを、一連の流れで体験できるようにまとめたものです。
 
 ## 用語について
 
@@ -222,7 +222,7 @@ Claude CodeではGit操作も依頼できます。まずコミットメッセー
 
 実際にClaude Codeへ指示を出しながらTodoアプリを作成します。
 
-HTML / CSS / JavaScriptのみを使用して、最後にREADMEの作成、テスト、Gitコミットまでこなうことで、Claude Codeを使った一連の開発フローを体験します。
+HTML/CSS/JavaScriptのみを使用して、最後にREADMEの作成、テスト、Gitコミットまでこなうことで、Claude Codeを使った一連の開発フローを体験します。
 
 ### 5-1. todo_appフォルダを作成する
 
@@ -238,7 +238,7 @@ todo_appという名前のフォルダを作成してください
 
 ### 5-3. Todoアプリを作成する
 
-HTML / CSS / JavaScriptのみを使用して、次の機能を持つTodoアプリを作成してください
+HTML/CSS/JavaScriptのみを使用して、次の機能を持つTodoアプリを作成してください
 
 - Todoの登録
 - Todoの一覧表示
