@@ -287,7 +287,7 @@ README.mdには次の内容をまとめてください。
 
 ---
 
-## 6. ターミナルからClaude Codeを実行できるようにする
+## 6. Claude Code をターミナルで使う
 
 ### 6-1. Claude Code CLIをインストールする
 
