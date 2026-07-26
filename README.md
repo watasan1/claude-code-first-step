@@ -460,7 +460,7 @@ Enter to confirm · Esc to skip
 
 ---
 
-## 7. Claude Code（ターミナル利用時）の操作
+## 7. Claude Codeを便利に使う
 
 ### 7-1. ファイルやフォルダの削除
 
