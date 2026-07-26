@@ -460,7 +460,7 @@ Enter to confirm · Esc to skip
 
 ---
 
-## 7. Claude Codeを便利に使う
+## 7. 安全にファイルを削除する
 
 ### 7-1. ファイルやフォルダの削除
 
