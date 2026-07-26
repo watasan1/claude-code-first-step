@@ -75,7 +75,7 @@ Claudeから呼びかけられる際の表示名を入力します。
 
 ### 2-1. Claudeデスクトップアプリのインストーラーをダウンロードする
 
-公式サイト（[Claude Code 公式ドキュメント](https://claude.com/download)）から、自分のOSに合ったClaudeデスクトップアプリのインストーラーをダウンロードします。
+（[Claude Desktop ダウンロードページ](https://claude.com/download)）から、自分のOSに合ったClaudeデスクトップアプリのインストーラーをダウンロードします。
 
 ---
 
@@ -298,7 +298,7 @@ README.mdには次の内容をまとめてください。
 
 ### 6-1. Claude Codeをインストールする
 
-公式ドキュメント（[https://code.claude.com/docs/en/overview](https://code.claude.com/docs/en/overview)）
+（[Claude Code Documentation](https://code.claude.com/docs/en/overview)）
 に記載の手順に従い、以下のコマンドでインストールします。
 
 ターミナルを開き、次のコマンドを実行します。
@@ -475,9 +475,9 @@ Enter to confirm · Esc to skip
 
 Claude Codeは、ファイルやフォルダの削除時に通常の`rm`コマンドを実行します。
 
-`rm`コマンドは、削除したファイルやフォルダをごみ箱へ移動せず、そのまま削除します。そのため、誤って削除すると復元が困難になる場合があります。
+`rm`コマンドは、ごみ箱を経由せず削除するため、誤って実行すると復元が困難になる場合があります。
 
-本章では、`rm`コマンドを`trash`コマンドへ置き換え、安全にファイルやフォルダを削除できるよう設定します。
+そこで本章では、`rm`コマンドを`trash`コマンドへ置き換え、安全に削除できるように設定します。
 
 前提：
 
@@ -515,8 +515,16 @@ brew install trash
 
 Homebrewでインストールした`trash`コマンドを利用できるよう、PATHを設定します。
 
+Apple Siliconの場合
+
 ```bash
 echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
+```
+
+Intel Macの場合
+
+```bash
+echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash
 ```
 
 ### 7-4. rm を trashに置き換える
