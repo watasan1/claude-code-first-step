@@ -21,7 +21,7 @@ Anthropicが提供するClaudeのアカウントを作成します。
 
 ### 1-1. サインアップページにアクセスする
 
-ブラウザで [https://claude.ai](https://claude.ai) にアクセスします。
+ブラウザで [Claude公式サイト](https://claude.ai) にアクセスします。
 
 ---
 
