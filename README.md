@@ -324,7 +324,9 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
 claude --version
 ```
 
+```text
 2.1.215 (Claude Code)
+```
 
 バージョン番号は執筆時点の例です。実際に表示される値はインストール状況により異なります
 
