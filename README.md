@@ -224,8 +224,6 @@ Claude CodeではGit操作も依頼できます。まずコミットメッセー
 
 HTML / CSS / JavaScriptのみを使用して、最後にREADMEの作成、テスト、Gitコミットまでこなうことで、Claude Codeを使った一連の開発フローを体験します。
 
-以下の各Stepの文章は、そのままClaudeへの入力プロンプトとして使えます。
-
 ### 5-1. todo_appフォルダを作成する
 
 todo_appという名前のフォルダを作成してください
