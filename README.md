@@ -300,8 +300,7 @@ README.mdには、次の内容をまとめてください。
 
 ### 6-1. Claude Codeをインストールする
 
-（[Claude Code Documentation](https://code.claude.com/docs/en/overview)）
-に記載の手順に従い、以下のコマンドでインストールします。
+（[Claude Code Documentation](https://code.claude.com/docs/en/overview)）に記載の手順に従い、以下のコマンドでインストールします。
 
 ターミナルを開き、次のコマンドを実行します。
 
