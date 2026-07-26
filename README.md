@@ -204,7 +204,7 @@ Claude CodeではGit操作も依頼できます。まずコミットメッセー
 
 ---
 
-### 4-6. CLAUDE.md を作成する
+### 4-6. CLAUDE.md をを活用する
 
 プロジェクトフォルダに `CLAUDE.md` を配置すると、Claude Codeは起動時に自動で読み込みます。
 
@@ -330,7 +330,7 @@ claude --version
 
 ---
 
-### 6-3. Claude Code CLIを起動する
+### 6-3. Claude Code CLIを初期設定を行う
 
 作業ディレクトリに移動します。
 
@@ -460,7 +460,7 @@ Enter to confirm · Esc to skip
 
 ## 7. 安全にファイルを削除する
 
-### 7-1. ファイルやフォルダの削除
+### 7-1. rm コマンドの動作を理解する
 
 Claude Codeは、ファイル削除時に通常の `rm` コマンドを実行します。
 
@@ -500,7 +500,7 @@ which trash
 
 ### 7-3. trashコマンドをインストールする（未インストールの場合）
 
-which `trash`コマンドを実行しても何も表示されなかった場合は、Homebrewからインストールしてください。
+`which trash` コマンドが見つからなかった場合は、Homebrewからインストールしてください。
 
 ```bash
 brew install trash
